@@ -1,0 +1,109 @@
+ Custom DAX Measures for Oscar Awards Analysis
+
+Film Metrics
+
+Film Wins Count
+
+WINNER_FILMS = 
+CALCULATE(
+    COUNTROWS('the_oscar_award (1)'),
+    'the_oscar_award (1)'[winner] = TRUE
+)
+
+
+Nomination-to-Win Conversion Rate
+
+WIN_RATIO = 
+DIVIDE(
+    [WINNER_FILMS],
+    [NOMINATIONS],
+    0
+)
+-----------------------------------------------------------------
+
+
+Actor/Actress Metrics
+
+Actor Wins Count
+
+ACTOR_WINS = 
+VAR ActorName = SELECTEDVALUE('the_oscar_award (1)'[name])
+RETURN
+    CALCULATE(
+        COUNTROWS('the_oscar_award (1)'),
+        'the_oscar_award (1)'[winner] = TRUE,
+        CONTAINSSTRING([category], "ACTOR")
+    )
+
+
+Actress Nominations Count
+
+ACTRESS_NOMS = 
+CALCULATE(
+    COUNTROWS('the_oscar_award (1)'),
+    CONTAINSSTRING([category], "ACTRESS")
+)
+-------------------------------------------------------------------
+
+
+
+Temporal Metrics
+
+Annual Nominations Count
+
+ANNUAL_NOMINATIONS = 
+COUNTROWS(
+    FILTER(
+        'the_oscar_award (1)',
+        NOT(ISBLANK([year_ceremony]))
+    )
+
+
+Most Successful Decade
+
+TOP_DECADE = 
+VAR DecadeWins = 
+    ADDCOLUMNS(
+        GENERATESERIES(1920, 2020, 10),
+        "Wins", CALCULATE(
+            [WINNER_FILMS],
+            FILTER(
+                ALL('the_oscar_award (1)'),
+                [year_ceremony] >= [Value]
+                && [year_ceremony] < [Value]+10
+            )
+        )
+    )
+RETURN
+    MAXX(TOPN(1, DecadeWins, [Wins]), [Value]&"s")
+----------------------------------------------------------------------------
+
+
+
+Utility Measures
+
+Gender Classification
+
+GENDER = 
+IF(
+    CONTAINSSTRING([category], "ACTRESS"), 
+    "Female", 
+    "Male"
+)
+
+
+Years Until First Win
+
+WAITING_YEARS = 
+VAR FirstNom = MIN([year_ceremony])
+VAR FirstWin = MINX(
+    FILTER(
+        'the_oscar_award (1)',
+        [winner] = TRUE
+    ),
+    [year_ceremony]
+)
+RETURN
+    FirstWin - FirstNom
+
+
