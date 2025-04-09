@@ -1,0 +1,31 @@
+
+1. the_oscar_award.csv
+The original dataset before any transformations (e.g., from Kaggle, IMDb, or Google Sheets).
+
+Keep the source format (CSV, JSON, or Excel).
+
+2. cleaned_oscar_data.csv
+Processed dataset ready for analysis in Power BI.
+
+Includes:
+
+Added columns (e.g., Gender, Win_Rate).
+
+Filtered/cleaned data (removed nulls, fixed formatting).
+
+3. data_dictionary.md
+A description of each column (data types, meaning, examples).
+
+Example format:
+
+markdown
+Copy
+| Column          | Type     | Description                     | Example          |  
+|-----------------|----------|---------------------------------|------------------|  
+| `year_ceremony` | integer  | Year of the Oscar ceremony      | 2020             |  
+| `winner`        | boolean  | `TRUE` if won, `FALSE` if not   | TRUE             |  
+4. (Optional) sql_queries.sql
+SQL scripts used for data transformation (if applicable).
+
+5. README.md
+Short project overview (sources, key changes, notes).
