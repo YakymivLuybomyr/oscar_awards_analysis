@@ -38,4 +38,3 @@ This data analysis project explores 94 years of Oscar Award history to uncover t
 - **SQL** (Data transformation queries)
 - **Python** (Optional: data cleaning script)
 
-## 📁 Repository Structure
