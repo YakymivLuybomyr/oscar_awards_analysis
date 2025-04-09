@@ -28,7 +28,7 @@ This data analysis project explores 94 years of Oscar Award history to uncover t
 
  🛠 Technical Implementation
  📂 Data Pipeline
-1. **Source**: [IMDb Datasets](https://www.imdb.com/interfaces/)
+1. **Source**: the_oscar_award.csv
 2. **Cleaning**: Power Query (removed duplicates, added gender column)
 3. **Analysis**: 5 Power BI dashboards with DAX measures
 4. **Visualization**: Interactive reports with drill-down capabilities
