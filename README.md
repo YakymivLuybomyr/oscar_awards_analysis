@@ -1,7 +1,4 @@
 
-![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/D.OSCAR%201.png)
-
-
 
 
 # 🏆 Oscar Awards Analysis (1929-2023)
