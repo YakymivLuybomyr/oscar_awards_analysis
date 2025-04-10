@@ -1,6 +1,4 @@
 
-
-
 ## 📊 Dashboard: Dynamics of Nominations and Wins by Years   
 
 ### 📌 Overview  
@@ -43,20 +41,7 @@ Win Rate: Average win rate is ~15%, but drops to 5% in competitive years (e.g., 
 Outliers: [Year] had abnormally low wins due to [historical context].
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -104,11 +89,7 @@ RETURN
 3. **Modern Trend**: Post-2010 nominees receive fewer repeat nominations  
 
 
-
-
-
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -146,12 +127,7 @@ CALCULATE(
 3. **Record Holders**: *Titanic* and *LOTR* dominate action/fantasy categories  
 
 
-
-
-
-
-
-
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -192,13 +168,7 @@ CALCULATE(
 3. **Record Holders**: *La La Land* (2016) - most noms (14) without Best Picture win  
 
 
-
-
-
-
-
-
-
+-------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -242,11 +212,7 @@ RETURN
 3.  7 actors have 6+ noms without wins  
 
 
-
-
-
-
-
+--------------------------------------------------------------------------------------------------------------
 
 
 
