@@ -36,7 +36,7 @@ Meryl Streep's unmatched 21 nominations
 Contrasts like Glenn Close (8 noms, 0 wins) vs Hepburn (12 noms, 4 wins)
 
 🏅 Category Breakdown
-Category Analysis
+![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_1.png)
 
 Win Distribution: Reveals 83% of Oscars go to non-acting categories
 
