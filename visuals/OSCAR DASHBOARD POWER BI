@@ -171,7 +171,6 @@ CALCULATE(
 -------------------------------------------------------------------------------------------------------------------
 
 
-
 ## 🏆 Dashboard: Best Actor Nominations & Oscar Ratio   
 
 ### 📌 Overview  
@@ -215,7 +214,6 @@ RETURN
 --------------------------------------------------------------------------------------------------------------
 
 
-
 ## 🏆 Dashboard: Oscar Win Rates by Category  
 
 ### 📌 Overview  
@@ -250,11 +248,7 @@ Key Findings
 3.Most Volatile: Best Song (varies 8-28% by decade)
 
 
-
-
-
-
-
+---------------------------------------------------------------------------------------------------------------------
 
 
 ## 🎭 Dashboard: Actor/Actress Win Rates by Gender 
@@ -283,18 +277,3 @@ NOMINATIONS = COUNTROWS('the_oscar_award (1)')
 - Meryl Streep (21 noms, 3 wins)
 - Jack Nicholson (12 noms, 3 wins)
 🎬 Industry Insight: Best Actress winners average 5 years younger than Best Actor winners
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
