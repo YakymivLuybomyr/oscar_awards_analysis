@@ -1,14 +1,52 @@
-# 🏆 Oscar Awards Analysis (1929-2023)
-![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_1.png)
+ 🏆 Oscar Awards Analysis (1929-2023)
 
-
-
-## 📌 Project Overview
+📌 Project Overview
 This data analysis project explores 94 years of Oscar Award history to uncover trends in nominations, wins, and industry patterns. Using Power BI and SQL, I've transformed raw Oscar data into interactive dashboards that reveal:
 
 - Which films/actors dominated the awards
 - Gender disparities in nominations and wins
 - How award patterns evolved over decades
+
+📊 Dashboard Highlights
+🎯 Oscar Dashboard (Overview)
+![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_1.png)
+
+Historical Trends: Visualizes nomination patterns from 1920-2020 with clear peaks and valleys
+
+Top Performers:
+
+Katharine Hepburn leads with 4 acting wins
+
+"Titanic" and "Ben-Hur" tie for most film wins (12 Oscars each)
+
+Key Insight: The 1960s-1990s were the golden age for major Oscar sweeps
+
+📈 Nomination Ratios
+![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_1.png)
+Film Efficiency: Shows conversion rates from nominations to wins
+
+Perfect converters: "Gigi", "The Last Emperor" (9/9)
+
+High-volume nominees: "West Side Story" (11 wins from 18 noms)
+
+Actor Performance:
+
+Meryl Streep's unmatched 21 nominations
+
+Contrasts like Glenn Close (8 noms, 0 wins) vs Hepburn (12 noms, 4 wins)
+
+🏅 Category Breakdown
+Category Analysis
+
+Win Distribution: Reveals 83% of Oscars go to non-acting categories
+
+Competitive Edge:
+
+Directing has 20.3% win rate (95/469)
+
+Best Picture is most selective (16.7% win rate)
+
+Gender Lens: Acting categories show nearly identical win rates (8.4%)
 
 🔍 Key Insights from Data
  🎬 Film Analysis
