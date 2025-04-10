@@ -22,7 +22,7 @@ Katharine Hepburn leads with 4 acting wins
 Key Insight: The 1960s-1990s were the golden age for major Oscar sweeps
 
 📈 Nomination Ratios
-![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_1.png)
+![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_%202.png)
 Film Efficiency: Shows conversion rates from nominations to wins
 
 Perfect converters: "Gigi", "The Last Emperor" (9/9)
@@ -36,7 +36,7 @@ Meryl Streep's unmatched 21 nominations
 Contrasts like Glenn Close (8 noms, 0 wins) vs Hepburn (12 noms, 4 wins)
 
 🏅 Category Breakdown
-![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_1.png)
+![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_3.png)
 
 Win Distribution: Reveals 83% of Oscars go to non-acting categories
 
