@@ -1,4 +1,5 @@
 🎬 Oscar Awards Analysis (1929–2023)
+
 Interactive visualization and deep analysis of the Academy Awards history from 1929 to 2023, covering nomination trends, winners, gender disparities, and film performance efficiency.
 
 ![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_1.png)
