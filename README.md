@@ -1,80 +1,111 @@
- 🏆 Oscar Awards Analysis (1929-2023)
+🎬 Oscar Awards Analysis (1929–2023)
+Interactive visualization and deep analysis of the Academy Awards history from 1929 to 2023, covering nomination trends, winners, gender disparities, and film performance efficiency.
 
-📌 Project Overview
-This data analysis project explores 94 years of Oscar Award history to uncover trends in nominations, wins, and industry patterns. Using Power BI and SQL, I've transformed raw Oscar data into interactive dashboards that reveal:
-
-- Which films/actors dominated the awards
-- Gender disparities in nominations and wins
-- How award patterns evolved over decades
-
-📊 Dashboard Highlights
-🎯 Oscar Dashboard (Overview)
 ![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_1.png)
+🧩 Dashboard Overview
+1. 📈 Dynamics of Nominations and Wins by Year
+Observations:
+A sharp increase in nominations from the 1930s, peaking in the 1950s–1960s.
 
-Historical Trends: Visualizes nomination patterns from 1920-2020 with clear peaks and valleys
+The number of wins (yellow line) remains stable (~20–30) despite fluctuations in nominations.
 
-Top Performers:
+Insights:
+Growth in nominations likely due to category expansion.
 
-Katharine Hepburn leads with 4 acting wins
+Stable win count suggests structural limits—only one winner per category.
 
-"Titanic" and "Ben-Hur" tie for most film wins (12 Oscars each)
+Hypotheses:
+Do global events (e.g., wars, cultural shifts) impact nomination counts?
 
-Key Insight: The 1960s-1990s were the golden age for major Oscar sweeps
+Is competition in the industry becoming more intense over time?
 
-📈 Nomination Ratios
+2. 🏆 Top Performing Actors and Films
+Top Oscar-winning actors:
+Katharine Hepburn – 4 wins.
+
+Frances McDormand, Jack Nicholson, Meryl Streep – 3 wins each.
+
+Top winning films:
+Titanic – 12 Oscars from 16 nominations.
+
+Ben-Hur, LOTR: Return of the King – 11 wins.
+
+Gigi, The Last Emperor – 9 wins with 100% success.
+
+Insights:
+Some films achieve near-total dominance in their year.
+
+High nomination counts for some actors don't always mean more wins.
+
+Hypotheses:
+Are some genres more Oscar-friendly?
+
+Does studio or marketing influence impact win rates?
+
+
 ![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_%202.png)
-Film Efficiency: Shows conversion rates from nominations to wins
+3. ⚖️ Nomination-to-Win Ratios (Films & Actors)
+Films:
+LOTR: Return of the King – 11/11 (100%).
 
-Perfect converters: "Gigi", "The Last Emperor" (9/9)
+Titanic – 12/16, West Side Story – 11/18.
 
-High-volume nominees: "West Side Story" (11 wins from 18 noms)
+Actors:
+Meryl Streep – 21 nominations, 3 wins.
 
-Actor Performance:
+Katharine Hepburn – 12 nominations, 4 wins.
 
-Meryl Streep's unmatched 21 nominations
+Insights:
+Quantity of nominations doesn't always reflect win efficiency.
 
-Contrasts like Glenn Close (8 noms, 0 wins) vs Hepburn (12 noms, 4 wins)
+Some films have "perfect storm" years where they win nearly all categories.
 
-🏅 Category Breakdown
+Hypotheses:
+Are voters biased toward narrative-driven campaigns or cumulative achievements?
+
+
 ![Image alt](https://github.com/YakymivLuybomyr/oscar_awards_analysis/blob/main/data/D.O_3.png)
+4. 👩‍🦰👨‍🦱 Gender Distribution by Category
+Observations:
+Acting awards represent only ~17% of total Oscars.
 
-Win Distribution: Reveals 83% of Oscars go to non-acting categories
+Over 83% of awards go to general/technical categories.
 
-Competitive Edge:
+Insights:
+Female representation in technical categories remains limited.
 
-Directing has 20.3% win rate (95/469)
+Recent years show increased recognition for female directors and creators.
 
-Best Picture is most selective (16.7% win rate)
+Hypotheses:
+Are social movements (e.g., #MeToo) influencing nomination trends?
 
-Gender Lens: Acting categories show nearly identical win rates (8.4%)
+Do technical fields have systemic barriers to female participation?
 
-🔍 Key Insights from Data
- 🎬 Film Analysis
-- **Most awarded film**: *[Film Name]* with [X] wins (1950)
-- **Biggest nomination-to-win gap**: *[Film Name]* (14 noms, 0 wins)
-- **Best conversion rate**: *Lord of the Rings: Return of the King* (11/11 wins)
+5. 🧮 Win Rates by Oscar Category
+Highest win volumes:
+Directing – 469 nominations, 95 wins.
 
- 🎭 Acting Categories
-| Metric               | Actors | Actresses |
-|----------------------|--------|-----------|
-| Most nominations     | Jack Nicholson (12) | Meryl Streep (21) |
-| Highest win rate     | Daniel Day-Lewis (50%) | Katharine Hepburn (100%) |
-| Longest Oscar wait   | [Name] (36 years) | [Name] (42 years) |
+Documentary (Short) and Best Picture show varied success rates.
 
- 📅 Historical Trends
-- **Most competitive decade**: 1990s (32% of all awards)
-- **Category with lowest win rate**: Best Actor (14%)
-- **Recent shift**: More genre films winning post-2010
+Insights:
+Some categories are more competitive and predictable than others.
 
- 🛠 Technical Implementation
- 📂 Data Pipeline
-1. **Source**: the_oscar_award.csv
-2. **Cleaning**: Power Query (removed duplicates, added gender column)
-3. **Analysis**: 5 Power BI dashboards with DAX measures
-4. **Visualization**: Interactive reports with drill-down capabilities
+Smaller, niche categories may exhibit higher win efficiency.
 
-💻 Technologies Used
-- **Power BI** (Data modeling, DAX, visualization)
-- **SQL** (Data transformation queries)
-- **Python** (Optional: data cleaning script)
+Hypotheses:
+Are newer categories more or less competitive?
+
+Does visibility influence perceived "worth" of a category?
+
+📁 Project Structure
+graphql
+Копіювати
+Редагувати
+├── data/                # Historical data (CSV/Excel)
+├── sql_queries/         # SQL transformations and aggregation
+├── visuals/             # Power BI dashboards
+├── README.md            # Project documentation
+🛠 Technologies
+SQL (PostgreSQL): Data extraction, joins, aggregations.
+
 
